@@ -1,6 +1,12 @@
-const Button = ({ bStyle, text }) => {
+import { Link } from "react-router-dom"
+
+import "./Button.scss"
+
+const Button = ({ link, bStyle, text }) => {
     return (
-        <button className={`btn ${bStyle}`}>{text}</button>
+        <button className={`btn ${bStyle}`}>
+            <Link className="btn" to={`/${link}`}>{text}</Link>
+        </button>
     )
 }
 

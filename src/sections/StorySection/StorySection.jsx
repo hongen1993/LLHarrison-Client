@@ -1,6 +1,10 @@
 import "./StorySection.scss"
+
 import imageA from "../../assets/images/storyA.jpg"
 import imageB from "../../assets/images/storyB.jpg"
+
+import Heading from "../../components/Heading/Heading"
+import Button from "../../components/Button/Button"
 
 const StorySection = () => {
     return (
@@ -10,10 +14,10 @@ const StorySection = () => {
                 <img src={imageA} alt="New house" className="story__img--2" />
             </div>
             <div className="story__content">
-                <h3 className="heading-3 mb-sm">HAPPY CUSTOMERS</h3>
-                <h2 className="heading-2 heading-2--dark mb-sm">&ldquo;The best decision of our lives&rdquo;</h2>
+                <Heading HType={'h3'} hStyle={'3 mb-sm'} text={'HAPPY CUSTOMERS'} />
+                <Heading HType={'h2'} hStyle={'2 heading-2--dark mb-sm'} text={'"The best decision of our lives"'} />
                 <p className="story__text">Great company and we were very happy with Mary. She made our search a joyful experience. If we ever buy again or sell we will go back to them without any doubt!</p>
-                <button className="btn">Find your own home</button>
+                <Button link={'properties'} text={'Find your own property'} />
             </div>
         </section>
     )

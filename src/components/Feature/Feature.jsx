@@ -6,9 +6,7 @@ const Feature = ({ icon, hText, pText }) => {
 
     return (
         <div className="feature">
-            <svg className="feature__icon">
-                {/* <use xlink:href={`img/sprite.svg#icon-${icon}`}></use> */}
-            </svg>
+            {icon}
             <Heading HType={'h4'} hStyle={hStyle} text={hText} />
             <p className="feature__text">{pText}</p>
         </div>

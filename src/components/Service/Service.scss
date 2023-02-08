@@ -1,0 +1,12 @@
+@import "../../sass/base";
+
+.service {
+    &-text {
+        font-size: 1.4rem;
+        color: $color-secondary;
+        position: relative;
+        top: -.75rem;
+        left: 1.5rem;
+        display: inline-block;
+    }
+}

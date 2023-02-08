@@ -1,0 +1,19 @@
+@import "../../sass/base";
+
+.section-about-us {
+    background-color: $color-grey-dark-1;
+    grid-column: 1 / 12;
+    grid-row: 2 / 3;
+    height: 87.5vh;
+    background-image: linear-gradient(rgba($color-secondary, .73), rgba($color-secondary, .73)), url(../../assets/images/gal-13.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        text-align: center;
+        color: $color-primary;
+        font-size: 3rem;
+    }
+}

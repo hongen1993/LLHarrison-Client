@@ -24,20 +24,6 @@
 .header {
     grid-template-columns: minmax(min-content, max-content);
 
-    &__title {
-        display: grid;
-        opacity: .97;
-        background-color: $color-secondary;
-        z-index: 10;
-        padding: 1.75rem;
-        grid-column: 1 / 12;
-    }
-
-    &__logo {
-        height: 4.75rem;
-        justify-self: center;
-    }
-
     &__content {
         display: grid;
         position: relative;

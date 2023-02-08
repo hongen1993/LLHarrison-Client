@@ -10,19 +10,17 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import IsPrivate from "./components/IsPrivate/IsPrivate";
 import IsAnon from "./components/IsAnon/IsAnon";
 
-import HeaderSection from "./sections/HeaderSection/HeaderSection"
-import RealtorsSection from "./sections/RealtorsSection/RealtorsSection"
-import FeaturesSection from "./sections/FeaturesSection/FeaturesSection"
-import StorySection from "./sections/StorySection/StorySection"
-import HomesSection from "./sections/HomesSection/HomesSection"
-import GallerySection from "./sections/GallerySection/GallerySection"
-import FooterSection from "./sections/FooterSection/FooterSection"
+import PropertiesPage from "./pages/PropertiesPage/PropertiesPage";
+import BuyProcessPage from "./pages/BuyProcessPage/BuyProcessPage";
+import AfterSalePage from "./pages/AfterSalePage/AfterSalePage";
+import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
+import ContactUs from "./pages/ContactUs/ContactUs";
+
 
 function App() {
   return (
     <div className="container">
       <Sidebar />
-
       <Routes>
         <Route path="/" element={<HomePage />} />
 
@@ -51,14 +49,50 @@ function App() {
             </IsAnon>
           }
         />
+
+        <Route
+          path="/properties"
+          element={
+            <IsAnon>
+              <PropertiesPage />
+            </IsAnon>
+          }
+        />
+        <Route
+          path="/buying-process"
+          element={
+            <IsAnon>
+              <BuyProcessPage />
+            </IsAnon>
+          }
+        />
+        <Route
+          path="/after-sales-services"
+          element={
+            <IsAnon>
+              <AfterSalePage />
+            </IsAnon>
+          }
+        />
+        <Route
+          path="/about-us"
+          element={
+            <IsAnon>
+              <AboutUsPage />
+            </IsAnon>
+          }
+        />
+        <Route
+          path="/contact-us"
+          element={
+            <IsAnon>
+              <ContactUs />
+            </IsAnon>
+          }
+        />
+
+
       </Routes>
-      <HeaderSection />
-      <RealtorsSection />
-      <FeaturesSection />
-      <StorySection />
-      <HomesSection />
-      <GallerySection />
-      <FooterSection />
     </div>
   );
 }

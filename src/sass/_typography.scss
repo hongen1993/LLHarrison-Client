@@ -45,23 +45,6 @@
     }
 }
 
-.btn {
-    background-color: $color-primary;
-    color: #fff;
-    border: none;
-    border-radius: 0;
-    font-family: $font-display;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    padding: 1.5rem 3rem;
-    cursor: pointer;
-    transition: all .2s;
-
-    &:hover {
-        background-color: $color-primary-dark;
-    }
-}
-
 .mb-sm {
     margin-bottom: 2rem;
 }

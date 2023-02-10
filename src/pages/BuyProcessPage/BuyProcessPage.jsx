@@ -9,8 +9,8 @@ const BuyProcessPage = () => {
     return (
         <>
             <Navbar />
-            <div class="section-buy-process">
-                <div class="section-buy-process--title">
+            <div className="section-buy-process">
+                <div className="section-buy-process--title">
                     <Heading HType={'h2'} hStyle={'1'} text={'Buying process'} />
                     <div className="step">
                         <div className="step-one">
@@ -25,7 +25,7 @@ const BuyProcessPage = () => {
                 </div>
                 <div className="section-buy-process--guides guides">
                     <Heading HType={'h2'} hStyle={'1'} text={'Contact Bromley Estates for further guidance'} />
-                    <div class="guides--content">
+                    <div className="guides--content">
                         <p className="guides--text">Below we have compiled a list of the most commonly requested services. When moving or vacationing in a new country, there could be a learning curve to “how things work in Spain” We are here to assist you with any requests you may have and will direct you to only the most reputable of companies.</p>
                         <div className="guides--features">
                             <Service text={' Property and Health insurance'} />

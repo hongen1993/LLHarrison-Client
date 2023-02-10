@@ -31,6 +31,7 @@
 
     &__link:hover,
     &__link:active {
+        border: 1px solid $color-primary;
         background-color: rgba(#fff, .05);
         transform: translateY(-3px);
     }
@@ -39,7 +40,7 @@
 .copyright {
     font-size: 1.4rem;
     color: $color-grey-light-2;
-    margin: 6rem auto 0rem auto;
+    margin: 5rem auto 0rem auto;
     text-align: center;
     width: 70%;
 }

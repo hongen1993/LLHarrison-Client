@@ -2,10 +2,12 @@
 
 .section-buy-process {
     grid-column: 1 / 12;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-rows: 87.5vh 1fr;
 
     &--title {
-
+        grid-row: 1 / 2;
         background-color: $color-grey-dark-1;
         background-image: linear-gradient(rgba($color-secondary, .73), rgba($color-secondary, .73)), url(../../assets/images/gal-2.jpg);
         background-size: cover;
@@ -28,13 +30,13 @@
     }
 
     &--guides {
+        grid-row: 2 / 3;
         padding-left: 10rem;
-        position: relative;
-        margin-top: -2.5rem;
+        margin: 7.5rem 0rem;
 
         h2 {
             color: $color-secondary;
-            padding: 10rem 7.5rem 5rem 7.5rem;
+            padding: 0 7.5rem;
             text-align: center;
 
         }
@@ -61,7 +63,7 @@
     &--content {
         display: grid;
         padding-left: 10rem;
-
+        margin-top: 5rem;
         grid-template-rows: min-content 1fr;
         grid-template-columns: repeat(2, 1fr);
     }

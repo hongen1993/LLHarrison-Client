@@ -58,7 +58,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 12.5vh 87.5vh 100vh repeat(4, min-content);
+    grid-template-rows: 12.5vh 87.5vh repeat(6, min-content);
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem)[col-end])[center-end] minmax(6rem, 1fr) [full-end];
 
     @media only screen and(max-width: $bp-large) {
@@ -72,5 +72,9 @@ body {
 }
 
 .pd-top-md {
-    padding-top: 5rem;
+    padding-top: 5rem !important;
+}
+
+.mg-bottom-md {
+    margin-bottom: 4rem !important;
 }

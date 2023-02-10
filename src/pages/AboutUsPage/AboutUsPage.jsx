@@ -37,7 +37,7 @@ const AboutUsPage = () => {
     return (
         <>
             <Navbar />
-            <section class="section-about-us">
+            <section className="section-about-us">
                 <Heading HType={'h2'} hStyle={'3'} text={'About us'} />
             </section>
             <section className="features">

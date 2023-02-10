@@ -11,7 +11,6 @@ const FooterSection = () => {
                 <li className="nav__item"><Link to="/after-sales-services" className="nav__link">After Sales Services</Link></li>
                 <li className="nav__item"><Link to="/about-us" className="nav__link">About us</Link></li>
                 <li className="nav__item"><Link to="/contact-us" className="nav__link">Contact us</Link></li>
-                <li className="nav__item"><Link to="/#" className="nav__link">Come work with us!</Link></li>
             </ul>
             <p className="copyright">
                 &copy; Copyright 2023

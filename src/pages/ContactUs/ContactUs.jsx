@@ -83,11 +83,17 @@ const ContactUs = () => {
                         <FormGroup formStyle={'col-3'} onChange={handlePhoneNumber} inputType={"tel"} placeholder={'Telephone number'} labelType={'Telephone number'} />
                         <FormGroup formStyle={'col-6'} onChange={handleEmail} inputType={"email"} placeholder={'Email'} labelType={'email'} />
                         <FormGroup formStyle={'col-6'} onChange={handleNationality} inputType={"text"} placeholder={'Nationality'} labelType={'nationality'} />
-                        <FormGroup formStyle={'col-6'} onChange={handlePropertyType} inputType={"text"} placeholder={'Property type'} labelType={'property type'} />
+                        <div className='form__group col-6 select'>
+                            <select className="form__input">
+                                <option value="0" label="Type of property" selected="selected">Type of property</option>
+                                <option value="0" label="Apartment">Apartment</option>
+                                <option value="0" label="Villa">Villa</option>
+                                <option value="0" label="Townhouse">Townhouse</option>
+                            </select>
+                        </div>
                         <FormGroup formStyle={'col-6'} onChange={handleBudget} inputType={"number"} placeholder={'Budget'} labelType={'budget'} />
-                        <FormGroup onChange={handleMessage} inputType={"text-area"} placeholder={'Message'} labelType={'message'} />
-
-                        <div className="form__group u-margin-bottom-medium">
+                        <FormGroup formStyle={'col-12'} onChange={handleMessage} inputType={"text-area"} placeholder={'Message'} labelType={'message'} />
+                        <div className="form__group mg-bottom-md">
                             <div className="form__radio-group">
                                 <input type="checkbox" className="form__radio-input" id="schedule" name="schedule" />
                                 <label for="schedule" className="form__radio-label">
@@ -95,8 +101,6 @@ const ContactUs = () => {
                                     Schedule a Viewing
                                 </label>
                             </div>
-                        </div>
-                        <div className="form__group u-margin-bottom-medium">
                             <div className="form__radio-group">
                                 <input type="checkbox" className="form__radio-input" id="agree" name="agree" />
                                 <label for="agree" className="form__radio-label">

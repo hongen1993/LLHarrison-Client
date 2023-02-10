@@ -14,7 +14,7 @@ import Button from "../../components/Button/Button"
 
 const HeaderSection = () => {
     return (
-        <section className="section-header" id="section-stories">
+        <section className="header">
             <Navbar />
             <div className="bg-video" >
                 <video className="bg-video__content" autoPlay muted loop >

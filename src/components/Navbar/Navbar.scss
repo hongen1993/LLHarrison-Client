@@ -1,16 +1,16 @@
 @import "../../sass/base";
 
 .navbar {
-    grid-template-columns: minmax(min-content, max-content);
 
     &__title {
         grid-row: 1 / 2;
-        display: grid;
-        opacity: .97;
-        background-color: $color-secondary;
-        z-index: 10;
-        padding: 1.75rem;
         grid-column: 1 / 12;
+        z-index: 0;
+        display: grid;
+        opacity: .99;
+        background-color: $color-secondary;
+        padding: 1.75rem;
+        height: 100%;
     }
 
     &__logo {

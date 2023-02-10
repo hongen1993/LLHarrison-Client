@@ -1,0 +1,12 @@
+@import "../../sass/base";
+@import "../../sass/typography";
+
+.categories {
+    grid-row: 3 / 4;
+    grid-column: 2 / 12;
+    margin: 7.5rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 42.5rem);
+    row-gap: 7rem;
+    column-gap: 2.5rem
+}

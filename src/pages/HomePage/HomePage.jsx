@@ -1,6 +1,6 @@
 import HeaderSection from "../../sections/HeaderSection/HeaderSection"
 import RealtorsSection from "../../sections/RealtorsSection/RealtorsSection"
-import FeaturesSection from "../../sections/FeaturesSection/FeaturesSection"
+import CategoriesSection from "../../sections/CategoriesSection/CategoriesSection"
 import StorySection from "../../sections/StorySection/StorySection"
 import PropertiesSection from "../../sections/PropertiesSection/PropertiesSection"
 import GallerySection from "../../sections/GallerySection/GallerySection"
@@ -11,7 +11,7 @@ function HomePage() {
     <>
       <HeaderSection />
       <RealtorsSection />
-      <FeaturesSection />
+      <CategoriesSection />
       <StorySection />
       <PropertiesSection />
       <GallerySection />

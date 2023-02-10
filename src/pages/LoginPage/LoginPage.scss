@@ -1,0 +1,24 @@
+@import "../../sass/base";
+
+
+.section-login {
+    grid-column: 1 / 12;
+    grid-row: 2 / 3;
+    height: 87.5vh;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+    &__form {
+        grid-column: 1 / 2;
+        text-align: center;
+        padding-top: 10rem;
+    }
+
+    &__image {
+        grid-column: 2 / 3;
+        background-image: url(../../assets/images/login.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}

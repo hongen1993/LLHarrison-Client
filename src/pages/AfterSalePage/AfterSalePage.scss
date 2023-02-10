@@ -1,8 +1,8 @@
 @import "../../sass/base";
 
-.section-after-buy {
+.section-after-sale {
     grid-column: 1 / 12;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
 
     &--title {
         background-color: $color-grey-dark-1;
@@ -23,7 +23,7 @@
     &--content {
         padding-left: 10rem;
         position: relative;
-        margin-top: 5rem;
+        margin: 7.5rem 0;
     }
 }
 
@@ -38,6 +38,7 @@
 
 .after {
     padding: 5rem;
+    padding-bottom: 0;
     text-align: center;
     color: $color-secondary;
 

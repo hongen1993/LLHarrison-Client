@@ -17,3 +17,17 @@
         font-size: 3rem;
     }
 }
+
+.features {
+    grid-column: center-start / center-end;
+
+    margin: 15rem 0;
+
+    @supports(display:grid) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 6rem;
+        align-items: start;
+    }
+
+}

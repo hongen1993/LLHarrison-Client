@@ -7,7 +7,7 @@
     display: grid;
     grid-template-rows: 87.5vh 1fr;
 
-    &--title {
+    &__title {
         background-color: $color-grey-dark-1;
         height: 87.5vh;
         background-image: linear-gradient(rgba($color-secondary, .73), rgba($color-secondary, .73)), url(../../assets/images/gal-1.jpg);
@@ -24,7 +24,7 @@
         }
     }
 
-    &--content {
+    &__content {
         padding: 5rem 5rem 5rem 13rem;
         background-color: $color-secondary;
 
@@ -32,6 +32,8 @@
             font-size: 3rem;
             text-align: center;
             padding-bottom: 5rem;
+            position: relative;
+            left: -4rem;
             color: $color-primary;
         }
     }
@@ -40,7 +42,7 @@
 .form {
     color: $color-primary;
     border: solid 1px $color-primary;
-    padding: 3rem;
+    padding: 5rem;
 
     .col-3 {
         width: 31%;
@@ -61,7 +63,7 @@
         top: -4.3rem;
     }
 
-    &__group:not(:last-child) {
+    &__group {
         margin: 0.5rem 1rem;
     }
 

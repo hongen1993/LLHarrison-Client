@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import authService from "../../services/auth.service";
 
+import Heading from "../../components/Heading/Heading";
+import FormGroup from "../../components/FormGroup/FormGroup";
 import Navbar from "../../components/Navbar/Navbar";
 import FooterSection from "../../components/Footer/Footer";
 
@@ -10,6 +12,10 @@ function SignupPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
+  const [surname, setSurname] = useState("");
+  const [birthdate, setBirthdate] = useState(0);
+  const [phoneNumber, setPhoneNumber] = useState(0);
+
   const [errorMessage, setErrorMessage] = useState(undefined);
 
   const navigate = useNavigate();
@@ -17,32 +23,19 @@ function SignupPage() {
   const handleEmail = (e) => setEmail(e.target.value);
   const handlePassword = (e) => setPassword(e.target.value);
   const handleName = (e) => setName(e.target.value);
+  const handleSurname = (e) => setSurname(e.target.value);
+  const handleBirthdate = (e) => setBirthdate(e.target.value);
+  const handlePhoneNumber = (e) => setPhoneNumber(e.target.value);
 
   const handleSignupSubmit = (e) => {
     e.preventDefault();
-    // Create an object representing the request body
-    const requestBody = { email, password, name };
-
-    // Send a request to the server using axios
-    /* 
-    const authToken = localStorage.getItem("authToken");
-    axios.post(
-      `${process.env.REACT_APP_SERVER_URL}/auth/signup`, 
-      requestBody, 
-      { headers: { Authorization: `Bearer ${authToken}` },
-    })
-    .then((response) => {})
-    */
-
-    // Or using a service
+    const requestBody = { email, password, name, surname, birthdate, phoneNumber };
     authService
       .signup(requestBody)
       .then((response) => {
-        // If the POST request is successful redirect to the login page
         navigate("/login");
       })
       .catch((error) => {
-        // If the request resolves with an error, set the error message in the state
         const errorDescription = error.response.data.message;
         setErrorMessage(errorDescription);
       });
@@ -51,32 +44,28 @@ function SignupPage() {
   return (
     <>
       <Navbar />
-      <div className="signup-page">
-        <h1>Sign Up</h1>
+      <section className="section-signup">
+        <form onSubmit={handleSignupSubmit} className="section-signup__form form">
+          <Heading HType={'h3'} hStyle={'3'} text={'Sign Up'} />
+          <FormGroup onChange={handleName} formStyle={' section-signup__form-a'} inputType={"text"} placeholder={'Name'} labelType={'Name'} value={name} />
+          <FormGroup onChange={handleSurname} formStyle={' section-signup__form-b'} inputType={"text"} placeholder={'Surname'} labelType={'Surname'} value={surname} />
+          <FormGroup onChange={handleEmail} formStyle={' section-signup__form-c'} inputType={"email"} placeholder={'Email Address'} labelType={'Email Address'} value={email} />
+          <div className={`form__group section-signup__form-a`}>
+            <input onChange={handleBirthdate} value={birthdate} type='date' className="form__input font-color-secondary" placeholder='Date of birth' id='Date of birth' />
+            <label htmlFor='Date of birth' className="form__label">Date of birth</label>
+          </div>
+          <FormGroup onChange={handlePhoneNumber} formStyle={' section-signup__form-b'} inputType={"tel"} placeholder={'Phone Number'} labelType={'Phone Number'} value={phoneNumber} />
+          <FormGroup inputType={"password"} formStyle={' section-signup__form-a '} placeholder={'Password'} labelType={'Password'} />
+          <FormGroup onChange={handlePassword} formStyle={' section-signup__form-b'} inputType={"password"} placeholder={'Re-type Password'} labelType={'Re-type Password'} value={password} />
 
-        <form onSubmit={handleSignupSubmit}>
-          <label>Email:</label>
-          <input type="email" name="email" value={email} onChange={handleEmail} />
-
-          <label>Password:</label>
-          <input
-            type="password"
-            name="password"
-            value={password}
-            onChange={handlePassword}
-          />
-
-          <label>Name:</label>
-          <input type="text" name="name" value={name} onChange={handleName} />
-
-          <button type="submit">Sign Up</button>
+          <div className="form__group section-signup__form-c">
+            <button className="btn btn--green" type="submit">Sign Up</button>
+          </div>
+          {errorMessage && <p className="error-message">{errorMessage}</p>}
+          <Link to={"/login"} className="to-login"> Already have account?</Link>
         </form>
 
-        {errorMessage && <p className="error-message">{errorMessage}</p>}
-
-        <p>Already have account?</p>
-        <Link to={"/login"}> Login</Link>
-      </div>
+      </section>
       <FooterSection />
 
     </>

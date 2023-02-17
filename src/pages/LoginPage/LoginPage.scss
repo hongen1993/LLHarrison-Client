@@ -5,20 +5,41 @@
     grid-column: 1 / 12;
     grid-row: 2 / 3;
     height: 87.5vh;
-
     display: grid;
     grid-template-columns: repeat(2, 50%);
 
+    background-image: linear-gradient(115deg, rgba($color-secondary, .9)0%, rgba($color-secondary, .4)50%, rgba($color-secondary, 0)60%, transparent 60%), url(../../assets/images/login.jpg);
+    background-position: center;
+    background-size: cover;
+
     &__form {
         grid-column: 1 / 2;
-        text-align: center;
-        padding-top: 10rem;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: $color-primary;
+        }
     }
 
-    &__image {
-        grid-column: 2 / 3;
-        background-image: url(../../assets/images/login.jpg);
-        background-position: center;
-        background-size: cover;
+
+}
+
+.login-form {
+    padding: 5rem 15rem 0 15rem;
+}
+
+.to-signup {
+    color: $color-primary;
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
     }
 }

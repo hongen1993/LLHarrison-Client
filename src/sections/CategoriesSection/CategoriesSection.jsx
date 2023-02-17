@@ -8,22 +8,23 @@ import imageD from "../../assets/images/cat-4.jpg"
 import imageE from "../../assets/images/cat-5.jpg"
 import imageF from "../../assets/images/cat-6.jpg"
 
-
 const CategoriesSection = () => {
+
     const categoryA = 'New properties'
     const categoryB = 'Contemporary developments'
     const categoryC = 'Exclusive properties'
     const categoryD = 'Villa selection'
     const categoryE = 'Frontline beach'
-    const categoryF = 'Recommendations'
+    const categoryF = 'Luxury Apartments'
+
     return (
-        <section className="categories">
-            <Category text={categoryA} image={imageA} />
-            <Category text={categoryB} image={imageB} />
-            <Category text={categoryC} image={imageC} />
-            <Category text={categoryD} image={imageD} />
-            <Category text={categoryE} image={imageE} />
-            <Category text={categoryF} image={imageF} />
+        <section className="categories" id='section-categories'>
+            <Category text={categoryA} image={imageA} link='properties-categories' />
+            <Category text={categoryB} image={imageB} link='properties-categories' />
+            <Category text={categoryC} image={imageC} link='properties-categories' />
+            <Category text={categoryD} image={imageD} link='properties-categories' />
+            <Category text={categoryE} image={imageE} link='properties-categories' />
+            <Category text={categoryF} image={imageF} link='properties-categories' />
 
         </section>
     )

@@ -1,5 +1,5 @@
-import "./App.scss";
 import { Routes, Route } from "react-router-dom";
+import "./App.scss";
 
 import HomePage from "./pages/HomePage/HomePage";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
@@ -9,12 +9,17 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import Sidebar from "./components/Sidebar/Sidebar";
 import IsPrivate from "./components/IsPrivate/IsPrivate";
 import IsAnon from "./components/IsAnon/IsAnon";
+import IsAdmin from "./components/IsAdmin/IsAdmin";
 
 import PropertiesPage from "./pages/PropertiesPage/PropertiesPage";
 import BuyProcessPage from "./pages/BuyProcessPage/BuyProcessPage";
 import AfterSalePage from "./pages/AfterSalePage/AfterSalePage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
-import ContactUs from "./pages/ContactUs/ContactUs";
+import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
+import AddProperties from "./pages/AddProperties/AddProperties";
+import PropertiesCategoryPage from "./pages/PropertiesCategoryPage/PropertiesCategoryPage";
+import PropertyPage from "./pages/PropertyPage/PropertyPage";
+
 
 
 function App() {
@@ -30,6 +35,15 @@ function App() {
             <IsPrivate>
               <ProfilePage />
             </IsPrivate>
+          }
+        />
+
+        <Route
+          path="/add-properties"
+          element={
+            <IsAdmin>
+              <AddProperties />
+            </IsAdmin>
           }
         />
 
@@ -53,44 +67,46 @@ function App() {
         <Route
           path="/properties"
           element={
-            <IsAnon>
-              <PropertiesPage />
-            </IsAnon>
+            <PropertiesPage />
+          }
+        />
+        <Route
+          path="/properties-categories"
+          element={
+            <PropertiesCategoryPage />
           }
         />
         <Route
           path="/buying-process"
           element={
-            <IsAnon>
-              <BuyProcessPage />
-            </IsAnon>
+            <BuyProcessPage />
           }
         />
         <Route
           path="/after-sales-services"
           element={
-            <IsAnon>
-              <AfterSalePage />
-            </IsAnon>
+            <AfterSalePage />
           }
         />
         <Route
           path="/about-us"
           element={
-            <IsAnon>
-              <AboutUsPage />
-            </IsAnon>
+            <AboutUsPage />
           }
         />
         <Route
           path="/contact-us"
           element={
-            <IsAnon>
-              <ContactUs />
-            </IsAnon>
+            <ContactUsPage />
           }
         />
 
+        <Route
+          path="/property/:id"
+          element={
+            <PropertyPage />
+          }
+        />
 
       </Routes>
     </div>

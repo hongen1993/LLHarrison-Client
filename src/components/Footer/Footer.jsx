@@ -12,9 +12,10 @@ const FooterSection = () => {
                 <li className="nav__item"><Link to="/about-us" className="nav__link">About us</Link></li>
                 <li className="nav__item"><Link to="/contact-us" className="nav__link">Contact us</Link></li>
             </ul>
-            <p className="copyright">
-                &copy; Copyright 2023
-            </p>
+            <div className="copyright">
+                <p>Developed by <Link to='https://www.linkedin.com/in/hongen-shyu-barcel/'>Hong-en SB</Link></p>
+                <p>All rights reserved &copy; Copyright 2023</p>
+            </div>
         </footer >
     )
 }

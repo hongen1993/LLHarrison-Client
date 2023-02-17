@@ -1,44 +1,21 @@
-import axios from "axios";
-
-class AuthService {
+import InitAxios from './initAxios.service'
+class AuthService extends InitAxios {
   constructor() {
-    this.api = axios.create({
-      baseURL: process.env.REACT_APP_SERVER_URL || "http://localhost:5005",
-    });
-
-    // Automatically set JWT token on the request headers for every request
-    this.api.interceptors.request.use((config) => {
-      // Retrieve the JWT token from the local storage
-      const storedToken = localStorage.getItem("authToken");
-
-      if (storedToken) {
-        config.headers = { Authorization: `Bearer ${storedToken}` };
-      }
-
-      return config;
-    });
+    super('auth')
   }
 
   login = (requestBody) => {
-    return this.api.post("/auth/login", requestBody);
-    // same as
-    // return axios.post("http://localhost:5005/auth/login");
+    return this.axios.post("/login", requestBody);
   };
 
   signup = (requestBody) => {
-    return this.api.post("/auth/signup", requestBody);
-    // same as
-    // return axios.post("http://localhost:5005/auth/singup");
+    return this.axios.post("/signup", requestBody);
   };
 
   verify = () => {
-    return this.api.get("/auth/verify");
-    // same as
-    // return axios.post("http://localhost:5005/auth/verify");
+    return this.axios.get("/verify");
   };
 }
 
-// Create one instance (object) of the service
-const authService = new AuthService();
+export default new AuthService()
 
-export default authService;

@@ -19,46 +19,46 @@ import galleryN from "../../assets/images/gal-14.jpg"
 const GallerySection = () => {
     return (
         <section className="gallery">
-            <figure className="gallery_item gallery__item--1">
+            <figure className="gallery__item gallery__item--1">
                 <img src={galleryA} alt="Gallery 1" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--2">
+            <figure className="gallery__item gallery__item--2">
                 <img src={galleryB} alt="Gallery 2" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--3">
+            <figure className="gallery__item gallery__item--3">
                 <img src={galleryC} alt="Gallery 3" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--4">
+            <figure className="gallery__item gallery__item--4">
                 <img src={galleryD} alt="Gallery 4" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--5">
+            <figure className="gallery__item gallery__item--5">
                 <img src={galleryE} alt="Gallery 5" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--6">
+            <figure className="gallery__item gallery__item--6">
                 <img src={galleryF} alt="Gallery 6" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--7">
+            <figure className="gallery__item gallery__item--7">
                 <img src={galleryG} alt="Gallery 7" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--8">
+            <figure className="gallery__item gallery__item--8">
                 <img src={galleryH} alt="Gallery 8" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--9">
+            <figure className="gallery__item gallery__item--9">
                 <img src={galleryI} alt="Gallery 9" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--10">
+            <figure className="gallery__item gallery__item--10">
                 <img src={galleryJ} alt="Gallery 10" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--11">
+            <figure className="gallery__item gallery__item--11">
                 <img src={galleryK} alt="Gallery 11" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--12">
+            <figure className="gallery__item gallery__item--12">
                 <img src={galleryL} alt="Gallery 12" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--13">
+            <figure className="gallery__item gallery__item--13">
                 <img src={galleryM} alt="Gallery 13" className="gallery__img" />
             </figure>
-            <figure className="gallery_item gallery__item--14">
+            <figure className="gallery__item gallery__item--14">
                 <img src={galleryN} alt="Gallery 14" className="gallery__img" />
             </figure>
         </section>

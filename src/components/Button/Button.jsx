@@ -5,7 +5,7 @@ import "./Button.scss"
 const Button = ({ link, bStyle, text }) => {
     return (
         <button className={`btn ${bStyle}`}>
-            <Link className="btn" to={`/${link}`}>{text}</Link>
+            <Link to={`/${link}`}>{text}</Link>
         </button>
     )
 }

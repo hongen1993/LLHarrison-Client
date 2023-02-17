@@ -5,7 +5,12 @@
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3.5rem;
+    gap: 1.5rem;
+    transition: .4s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 
     &__img {
         width: 100%;
@@ -44,19 +49,15 @@
     }
 
     &__location,
-    &__rooms {
-        margin-top: 3.5rem;
-    }
-
-    &__location,
-    &__rooms,
+    &__bedrooms,
+    &__bathrooms,
     &__area,
     &__price {
         font-size: 1.5rem;
-        margin-left: 2rem;
 
         display: flex;
         align-items: center;
+        margin-left: 2rem;
 
         svg {
             fill: $color-primary;
@@ -64,6 +65,13 @@
             width: 2rem;
             margin-right: 1rem;
         }
+    }
+
+    &__location {
+        margin-top: 3.5rem;
+        grid-column: 1 / 3;
+        justify-content: center;
+        margin-left: 0;
     }
 
     &__btn {

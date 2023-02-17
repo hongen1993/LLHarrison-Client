@@ -4,7 +4,7 @@
     grid-column: 1 / 12;
     grid-row: 2 / 4;
 
-    &--title {
+    &__title {
         background-color: $color-grey-dark-1;
         height: 75vh;
         background-image: linear-gradient(rgba($color-secondary, .73), rgba($color-secondary, .73)), url(../../assets/images/gal-14.jpg);
@@ -20,7 +20,7 @@
         }
     }
 
-    &--content {
+    &__content {
         padding-left: 10rem;
         position: relative;
         margin: 7.5rem 0;

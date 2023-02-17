@@ -1,6 +1,67 @@
-.signup-page {
+@import "../../sass/base";
+
+.section-signup {
     grid-row: 2 / 3;
-    grid-column: 4 / 9;
-    text-align: center;
-    margin-top: 10rem;
+    grid-column: 1 / 12;
+    padding: 2.5rem 0;
+
+    background-image: url(../../assets/images/signup.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+    &__form {
+        width: 50vw;
+        background-color: rgba($color-secondary, .3);
+        padding: 0 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 1rem;
+
+        input,
+        label {
+            font-size: 1.3rem;
+            color: $color-primary;
+        }
+
+        h3 {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 2.25rem;
+            color: $color-primary;
+            grid-column: 1 / 3;
+        }
+
+        button {
+            display: block;
+        }
+
+        &-a {
+            grid-column: 1 / 2;
+        }
+
+        &-b {
+            grid-column: 2 / 3;
+        }
+
+        &-c {
+            grid-column: 1 / 3;
+        }
+
+        &:hover {
+            background-color: rgba($color-secondary, .8);
+        }
+    }
+
+    .to-login {
+        color: $color-primary;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }

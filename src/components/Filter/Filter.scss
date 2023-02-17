@@ -1,0 +1,22 @@
+@import "../../sass/base";
+
+.properties {
+    &__positionB {
+        h2 {
+            color: $color-secondary;
+        }
+    }
+
+    &__filterButton {
+        grid-column: 1 / 4;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -5rem;
+
+        button {
+            padding: 1rem;
+        }
+
+
+    }
+}

@@ -1,0 +1,78 @@
+@import "../../sass/base";
+
+.section-profile {
+    grid-row: 2 / 3;
+    grid-column: 1 / 12;
+}
+
+.profile {
+    padding-top: 5rem;
+    color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__data {
+        position: relative;
+        background-color: rgba($color-secondary, .97);
+        width: 25%;
+        border-radius: 2rem;
+        padding: 2rem;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    &__add,
+    &__edit,
+    &__exit {
+        position: absolute;
+        right: 5rem;
+        font-size: 2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__add {
+        a {
+            color: $color-primary;
+        }
+
+        right: 8rem;
+    }
+
+    &__exit {
+        right: 2rem;
+    }
+
+    h3 {
+        grid-column: 1 / 4;
+        padding: 1.5rem;
+    }
+
+    p {
+        padding: .25rem
+    }
+
+    &__favourites {
+        width: 90%;
+        background-color: rgba($color-secondary, .97);
+        border-radius: 2rem;
+        margin-top: 5rem;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        display: grid;
+        grid-template-columns: repeat(3, 32%);
+        column-gap: 2.5rem;
+        margin-left: 8rem;
+
+        h3 {
+            padding: 3rem;
+        }
+    }
+
+    &__favourite {
+        padding: 2rem;
+    }
+
+}

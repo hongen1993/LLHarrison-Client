@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer"
 
 const BuyProcessPage = () => {
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <div className="section-buy-process">
                 <div className="section-buy-process__title">
@@ -47,7 +47,7 @@ const BuyProcessPage = () => {
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }
 

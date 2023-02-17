@@ -27,7 +27,7 @@ const PropertiesPage = () => {
     }, [pagination])
 
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             < section className="properties properties__positionB" >
                 <Heading HType={'h2'} hStyle={'1'} text={'Our properties'} />
@@ -52,7 +52,7 @@ const PropertiesPage = () => {
                 </div>
             </section >
             <Footer />
-        </>
+        </div>
     )
 }
 

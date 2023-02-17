@@ -8,10 +8,10 @@ import Footer from "../../components/Footer/Footer"
 
 const AfterSalePage = () => {
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <section className="section-after-sale">
-                <div className="section-after-sale--title">
+                <div className="section-after-sale__title">
                     <Heading HType={'h2'} hStyle={'3'} text={'After Sale Services'} />
                 </div>
                 <div className="section-after-sale__content">
@@ -48,7 +48,7 @@ const AfterSalePage = () => {
                 </div>
             </section>
             <Footer />
-        </>
+        </div>
 
     )
 }

@@ -58,7 +58,7 @@ const AddProperties = () => {
     };
 
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <section className="section-addProperties property">
                 <div className="property__add">
@@ -86,7 +86,7 @@ const AddProperties = () => {
                 </div>
             </section>
             <FooterSection />
-        </>
+        </div>
     )
 }
 

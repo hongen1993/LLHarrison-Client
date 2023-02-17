@@ -14,33 +14,35 @@ import Button from "../../components/Button/Button"
 
 const HeaderSection = () => {
     return (
-        <section className="header">
+        <>
             <Navbar />
-            <div className="bg-video" >
-                <video className="bg-video__content" autoPlay muted loop >
-                    <source src={backgroundVideo}
-                        // srcset={`${sierraNevadaVideo2} 300w, ${sierraNevadaVideoB2} 800w`} 
-                        type="video/mp4" />
-                    <source src={backgroundVideoB}
-                        // srcset={`${sierraNevadaVideoB2} 300w, ${sierraNevadaVideoB} 800w`} 
-                        type="video/webm" />
-                    Your browser is not supported!
-                </video >
-            </div >
-            <div className="header__content">
-                <Heading HType={'h3'} hStyle={'3'} text={'Marbella`s Premier Real Estate Agency'} />
-                <Heading HType={'h1'} hStyle={'1'} text={'The ultimate personal freedom'} />
+            <section className="header">
+                <div className="bg-video" >
+                    <video className="bg-video__content" autoPlay muted loop >
+                        <source src={backgroundVideo}
+                            // srcset={`${sierraNevadaVideo2} 300w, ${sierraNevadaVideoB2} 800w`} 
+                            type="video/mp4" />
+                        <source src={backgroundVideoB}
+                            // srcset={`${sierraNevadaVideoB2} 300w, ${sierraNevadaVideoB} 800w`} 
+                            type="video/webm" />
+                        Your browser is not supported!
+                    </video >
+                </div >
+                <div className="header__content">
+                    <Heading HType={'h3'} hStyle={'3'} text={'Marbella`s Premier Real Estate Agency'} />
+                    <Heading HType={'h1'} hStyle={'1'} text={'The ultimate personal freedom'} />
 
-                <Button link={'properties'} bStyle={'header__btn'} text={'Our properties'} />
-                <div className="header__seenon-text">Seen on</div>
-                <div className="header__seenon-logos">
-                    <img src={imageA} alt="Seen on logo 1" />
-                    <img src={imageB} alt="Seen on logo 2" />
-                    <img src={imageC} alt="Seen on logo 3" />
-                    <img src={imageD} alt="Seen on logo 4" />
+                    <Button link={'properties'} bStyle={'header__btn'} text={'Our properties'} />
+                    <div className="header__seenon-text">Seen on</div>
+                    <div className="header__seenon-logos">
+                        <img src={imageA} alt="Seen on logo 1" />
+                        <img src={imageB} alt="Seen on logo 2" />
+                        <img src={imageC} alt="Seen on logo 3" />
+                        <img src={imageD} alt="Seen on logo 4" />
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </>
     )
 }
 

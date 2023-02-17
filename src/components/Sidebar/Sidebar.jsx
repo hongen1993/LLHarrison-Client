@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../context/auth.context";
 import { HashLink } from 'react-router-hash-link';
+import NavbarItem from "../NavbarItem/NavbarItem";
 
 import logo from "../../assets/images/logo-blue.ico"
 
@@ -16,68 +17,103 @@ import { GoHome } from "react-icons/go";
 function Sidebar() {
   const { isLoggedIn } = useContext(AuthContext);
 
-  return (
-    <nav className="sidebar">
-      <Link to="/">
-        <img className="logo" src={logo} alt="" />
-      </Link>
-      {isLoggedIn && (
-        <div className="sidebar__icons">
-          <Link to="/profile" className="icon">
-            {" "}
-            <MdAccountCircle />
-          </Link>
-          <Link to="/properties" className="icon">
-            {" "}
-            <GoHome />
-          </Link>
-          <Link to="/login" className="icon">
-            {" "}
-            <AiOutlineStar />
-          </Link>
-          <HashLink to="/#section-categories" className="icon">
-            <BiCategory />
-          </HashLink>
-          <Link to="/about-us" className="icon">
-            {" "}
-            <BsInfoCircle />
-          </Link>
-          <Link to="/contact-us" className="icon">
-            {" "}
-            <GrContact />
-          </Link>
-        </div>
-      )}
+  const listLink1 = '/profile'
+  const listLink2 = '/properties'
+  const listLink3 = '/buying-process'
+  const listLink4 = '/after-sales-services'
+  const listLink5 = '/about-us'
+  const listLink6 = '/contact-us'
 
-      {!isLoggedIn && (
-        <div className="sidebar__icons">
-          <Link to="/login" className="icon">
-            {" "}
-            <MdAccountCircle />
-          </Link>
-          <Link to="/properties" className="icon">
-            {" "}
-            <GoHome />
-          </Link>
-          <Link to="/login" className="icon">
-            {" "}
-            <AiOutlineStar />
-          </Link>
-          <HashLink to="/#section-categories" className="icon">
-            {" "}
-            <BiCategory />
-          </HashLink>
-          <Link to="/about-us" className="icon">
-            {" "}
-            <BsInfoCircle />
-          </Link>
-          <Link to="/contact-us" className="icon">
-            {" "}
-            <GrContact />
-          </Link>
-        </div>
-      )}
-    </nav>
+  const listText1 = 'Login'
+  const listText2 = 'Our Properties'
+  const listText3 = 'Buying Process'
+  const listText4 = 'After Sales Services'
+  const listText5 = 'About Us'
+  const listText6 = 'Contact Us'
+
+  return (
+    <>
+      <nav className="sidebar">
+        <Link to="/">
+          <img className="logo" src={logo} alt="" />
+        </Link>
+        {isLoggedIn && (
+          <div className="sidebar__icons">
+            <Link to="/profile" className="icon">
+              {" "}
+              <MdAccountCircle />
+            </Link>
+            <Link to="/properties" className="icon">
+              {" "}
+              <GoHome />
+            </Link>
+            <Link to="/login" className="icon">
+              {" "}
+              <AiOutlineStar />
+            </Link>
+            <HashLink to="/#section-categories" className="icon">
+              <BiCategory />
+            </HashLink>
+            <Link to="/about-us" className="icon">
+              {" "}
+              <BsInfoCircle />
+            </Link>
+            <Link to="/contact-us" className="icon">
+              {" "}
+              <GrContact />
+            </Link>
+          </div>
+        )}
+
+        {!isLoggedIn && (
+          <div className="sidebar__icons">
+            <Link to="/login" className="icon">
+              {" "}
+              <MdAccountCircle />
+            </Link>
+            <Link to="/properties" className="icon">
+              {" "}
+              <GoHome />
+            </Link>
+            <Link to="/login" className="icon">
+              {" "}
+              <AiOutlineStar />
+            </Link>
+            <HashLink to="/#section-categories" className="icon">
+              {" "}
+              <BiCategory />
+            </HashLink>
+            <Link to="/about-us" className="icon">
+              {" "}
+              <BsInfoCircle />
+            </Link>
+            <Link to="/contact-us" className="icon">
+              {" "}
+              <GrContact />
+            </Link>
+          </div>
+        )}
+      </nav>
+      <div className="dropdown">
+        <input type="checkbox" className="dropdown__checkbox" id="dropdown-toggle" />
+        <label htmlFor="dropdown-toggle" className="dropdown__button">
+          <span className="dropdown__icon">&nbsp;</span>
+        </label>
+
+        <div className="dropdown__background">&nbsp;</div>
+
+        <nav className="dropdown__nav">
+          <ul className="dropdown__list">
+            <NavbarItem navLink={listLink1} children={listText1} />
+            <NavbarItem navLink={listLink2} children={listText2} />
+            <NavbarItem navLink={listLink3} children={listText3} />
+            <NavbarItem navLink={listLink4} children={listText4} />
+            <NavbarItem navLink={listLink5} children={listText5} />
+            <NavbarItem navLink={listLink6} children={listText6} />
+          </ul>
+        </nav>
+      </div>
+    </>
   );
 }
 

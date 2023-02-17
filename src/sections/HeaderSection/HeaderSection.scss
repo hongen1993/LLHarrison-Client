@@ -5,20 +5,32 @@
     position: relative;
     display: grid;
 
-    height: 100vh;
-    grid-template-rows: 12.5vh 87.5vh;
+    height: 100%;
+    grid-template-rows: 100%;
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem)[col-end])[center-end] minmax(6rem, 1fr) [full-end];
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     grid-column: 1 / full-end;
+
+    @media only screen and(max-width: $bp-large) {
+        grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem)[col-end])[center-end] minmax(6rem, 1fr) [full-end];
+    }
 
     &__content {
         display: grid;
         position: relative;
         grid-column: 2 / 10;
-        grid-row: 2 / 3;
+        grid-row: 1 / 2;
         grid-template-rows: minmax(4rem, min-content) minmax(30rem, min-content) minmax(5rem, min-content) 1fr;
         padding: 7.5rem 8rem 4rem 8rem;
         background-color: rgba(16, 29, 44, .3);
+
+        @media only screen and(max-width: $bp-large) {
+            grid-column: 2 / 9;
+        }
+
+        @media only screen and(max-width: $bp-medium) {
+            grid-column: 1 / -1;
+        }
     }
 
     &__btn {
@@ -66,7 +78,7 @@
     width: 100%;
     z-index: -1;
     overflow: hidden;
-    grid-row: 1 / 3;
+    grid-row: 1 / 2;
     grid-column: 1 / 12;
 
     &__content {

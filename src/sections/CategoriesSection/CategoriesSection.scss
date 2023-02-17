@@ -6,7 +6,12 @@
     grid-column: 2 / 12;
     margin: 7.5rem 6rem;
     display: grid;
-    grid-template-columns: repeat(3, 42.5rem);
+    grid-template-columns: repeat(auto-fit, minmax(32.5rem, 1fr));
     row-gap: 7rem;
-    column-gap: 2.5rem
+    column-gap: 2.5rem;
+
+    @media only screen and(max-width: $bp-medium) {
+        grid-column: 1 / 12;
+        grid-row: 4 / 5
+    }
 }

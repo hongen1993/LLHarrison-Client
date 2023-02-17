@@ -18,7 +18,7 @@ function ProfilePage() {
   const fullName = user.name + ' ' + user.surname
 
   return (
-    <>
+    <div className="container container__B">
       <Navbar />
       <section className="section-profile">
         <div className="profile">
@@ -45,7 +45,7 @@ function ProfilePage() {
         </div>
       </section >
       <FooterSection />
-    </>
+    </div>
   );
 }
 

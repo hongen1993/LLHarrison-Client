@@ -35,7 +35,7 @@ const AboutUsPage = () => {
     const pTextE = 'Our staff are fully up to date with the latest developments, luxury listings and all financial and legal aspects pertaining to the sector.'
     const pTextF = 'Real Estate agency based on delivering an unrivalled service to our international customer base, through loyalty and integrity.'
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <section className="section-about-us">
                 <Heading HType={'h2'} hStyle={'3'} text={'About us'} />
@@ -49,7 +49,7 @@ const AboutUsPage = () => {
                 <Feature icon={iconF} hText={hTextF} pText={pTextF} />
             </section>
             <Footer />
-        </>
+        </div >
     )
 }
 

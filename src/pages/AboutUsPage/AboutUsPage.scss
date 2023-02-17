@@ -16,6 +16,7 @@
         color: $color-primary;
         font-size: 3rem;
     }
+
 }
 
 .features {
@@ -30,4 +31,7 @@
         align-items: start;
     }
 
+    @media only screen and(max-width: $bp-large) {
+        grid-column: 3 / 10;
+    }
 }

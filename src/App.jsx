@@ -24,7 +24,7 @@ import PropertyPage from "./pages/PropertyPage/PropertyPage";
 
 function App() {
   return (
-    <div className="container">
+    <div >
       <Sidebar />
       <Routes>
         <Route path="/" element={<HomePage />} />

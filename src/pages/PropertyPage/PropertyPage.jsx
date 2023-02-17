@@ -35,7 +35,7 @@ const PropertyPage = () => {
     let number = property.price.toLocaleString()
 
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <section className="section-property property-page" >
                 <div className="property-page__img">
@@ -86,7 +86,7 @@ const PropertyPage = () => {
                 </div>
             </section>
             <Footer />
-        </>
+        </div>
     )
 }
 

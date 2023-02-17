@@ -4,11 +4,11 @@ import Footer from "../../components/Footer/Footer"
 
 const PropertiesCategoryPage = () => {
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <Filter />
             <Footer />
-        </>
+        </div>
     )
 }
 

@@ -42,7 +42,7 @@ function SignupPage() {
   };
 
   return (
-    <>
+    <div className="container container__B">
       <Navbar />
       <section className="section-signup">
         <form onSubmit={handleSignupSubmit} className="section-signup__form form">
@@ -68,7 +68,7 @@ function SignupPage() {
       </section>
       <FooterSection />
 
-    </>
+    </div>
   );
 }
 

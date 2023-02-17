@@ -4,9 +4,18 @@
 .footer {
     background-color: $color-secondary;
     grid-column: full-start / full-end;
-    grid-row: 7/ 8;
+    grid-row: 7 / 8;
     padding: 8rem;
     padding-bottom: 2rem;
+
+    @media only screen and(max-width: $bp-large) {
+        grid-column: 2 / full-end;
+    }
+
+    @media only screen and(max-width: $bp-medium) {
+        grid-row: 8 / 9;
+        grid-column: 1 / 12;
+    }
 }
 
 .nav {

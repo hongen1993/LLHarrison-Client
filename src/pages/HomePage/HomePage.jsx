@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer"
 
 function HomePage() {
   return (
-    <>
+    <div className="container">
       <HeaderSection />
       <RealtorsSection />
       <CategoriesSection />
@@ -16,7 +16,7 @@ function HomePage() {
       <PropertiesSection />
       <GallerySection />
       <Footer />
-    </>
+    </div>
   );
 }
 

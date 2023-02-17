@@ -40,7 +40,7 @@ function LoginPage() {
   };
 
   return (
-    <>
+    <div className="container container__B">
       <Navbar />
       <section className="section-login">
         <div className="section-login__form">
@@ -58,7 +58,7 @@ function LoginPage() {
       </section>
 
       <FooterSection />
-    </>
+    </div>
   );
 }
 

@@ -75,7 +75,7 @@ const ContactUsPage = () => {
     }
 
     return (
-        <>
+        <div className="container container__B">
             <Navbar />
             <section className="section-contact-us">
                 <div className="section-contact-us__title">
@@ -117,7 +117,7 @@ const ContactUsPage = () => {
                 </div>
             </section>
             <Footer />
-        </>
+        </div>
     )
 }
 

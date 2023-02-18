@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../context/auth.context";
 import { HashLink } from 'react-router-hash-link';
-import NavbarItem from "../NavbarItem/NavbarItem";
+
+import SidebarItem from "../SidebarItem/SidebarItem";
 
 import logo from "../../assets/images/logo-blue.ico"
 
@@ -104,12 +105,12 @@ function Sidebar() {
 
         <nav className="dropdown__nav">
           <ul className="dropdown__list">
-            <NavbarItem navLink={listLink1} children={listText1} />
-            <NavbarItem navLink={listLink2} children={listText2} />
-            <NavbarItem navLink={listLink3} children={listText3} />
-            <NavbarItem navLink={listLink4} children={listText4} />
-            <NavbarItem navLink={listLink5} children={listText5} />
-            <NavbarItem navLink={listLink6} children={listText6} />
+            <SidebarItem navLink={listLink1} children={listText1} />
+            <SidebarItem navLink={listLink2} children={listText2} />
+            <SidebarItem navLink={listLink3} children={listText3} />
+            <SidebarItem navLink={listLink4} children={listText4} />
+            <SidebarItem navLink={listLink5} children={listText5} />
+            <SidebarItem navLink={listLink6} children={listText6} />
           </ul>
         </nav>
       </div>

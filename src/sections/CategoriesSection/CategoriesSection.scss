@@ -10,7 +10,7 @@
     row-gap: 7rem;
     column-gap: 2.5rem;
 
-    @media only screen and(max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         grid-column: 1 / 12;
         grid-row: 4 / 5
     }

@@ -26,7 +26,13 @@
             padding-top: 14rem;
             padding-bottom: 10rem;
             color: $color-primary;
+
+            @media only screen and (max-width: $bp-medium) {
+                padding-top: 10rem;
+            }
         }
+
+
     }
 
     &__guides {
@@ -39,6 +45,10 @@
             padding: 0 7.5rem;
             text-align: center;
 
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            padding-left: 0rem;
         }
     }
 }

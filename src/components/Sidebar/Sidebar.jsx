@@ -4,9 +4,8 @@ import { useContext } from "react";
 import { AuthContext } from "../../context/auth.context";
 import { HashLink } from 'react-router-hash-link';
 
-import SidebarItem from "../SidebarItem/SidebarItem";
-
 import logo from "../../assets/images/logo-blue.ico"
+import SidebarItem from "../SidebarItem/SidebarItem";
 
 import { MdAccountCircle } from 'react-icons/md';
 import { BiCategory } from 'react-icons/bi';
@@ -96,7 +95,7 @@ function Sidebar() {
         )}
       </nav>
       <div className="dropdown">
-        <input type="checkbox" className="dropdown__checkbox" id="dropdown-toggle" />
+        <input type="checkbox" className='dropdown__checkbox' id="dropdown-toggle" />
         <label htmlFor="dropdown-toggle" className="dropdown__button">
           <span className="dropdown__icon">&nbsp;</span>
         </label>

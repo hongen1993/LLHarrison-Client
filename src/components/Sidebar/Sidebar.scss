@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
 
-    @media only screen and(max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         display: none;
     }
 
@@ -37,7 +37,7 @@
         text-align: center;
         margin-top: 2rem;
 
-        @media only screen and(max-width: $bp-medium) {}
+        @media only screen and (max-width: $bp-medium) {}
 
         .icon {
             display: block;
@@ -82,7 +82,7 @@
         transform: translateY(1.3rem);
     }
 
-    @media only screen and(max-width: $bp-large) {
+    @media only screen and (max-width: $bp-large) {
         margin-top: 0;
         margin-right: 3rem;
 
@@ -99,7 +99,7 @@
 .dropdown {
     display: none;
 
-    @media only screen and(max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         display: block;
     }
 
@@ -125,7 +125,7 @@
         position: fixed;
         right: 0;
         border-radius: 10rem;
-        background-image: radial-gradient($color-secondary, rgba($color-secondary, .9));
+        background-image: radial-gradient($color-secondary, rgb(31, 47, 78));
         z-index: 1000;
         transition: transform .8s cubic-bezier(.86, 0, 0.7, 1);
     }
@@ -140,6 +140,10 @@
         opacity: 0;
         width: 0;
         transition: all .8s cubic-bezier(.68, -.55, .265, 1.55);
+
+        @media only screen and (max-width: $bp-medium) {
+            left: -20rem;
+        }
     }
 
     &__list {
@@ -191,8 +195,8 @@
         position: relative;
         margin-top: 2.8rem;
 
-        @media only screen and(max-width: $bp-medium) {
-            margin-top: 4.5rem;
+        @media only screen and (max-width: $bp-medium) {
+            margin-top: 4.75rem;
         }
 
         &,
@@ -202,6 +206,11 @@
             display: inline-block;
             width: 3rem;
             height: 2px;
+
+            @media only screen and (max-width: $bp-small) {
+                height: 1.8px;
+                width: 2.75rem;
+            }
         }
 
         &::before,
@@ -214,10 +223,18 @@
 
         &::before {
             top: -1.25rem;
+
+            @media only screen and (max-width: $bp-small) {
+                top: -.75rem;
+            }
         }
 
         &::after {
             top: 1.25rem;
+
+            @media only screen and (max-width: $bp-small) {
+                top: .75rem;
+            }
         }
     }
 

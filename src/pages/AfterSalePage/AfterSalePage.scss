@@ -21,9 +21,12 @@
     }
 
     &__content {
-        padding-left: 10rem;
         position: relative;
         margin: 7.5rem 0;
+
+        @media only screen and (max-width: $bp-medium) {
+            padding-left: 0rem;
+        }
     }
 }
 

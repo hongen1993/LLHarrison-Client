@@ -14,4 +14,8 @@
         grid-column: 1 / 12;
         grid-row: 4 / 5
     }
+
+    @media only screen and (max-width: $bp-medium) {
+        margin: 7.5rem 3rem;
+    }
 }

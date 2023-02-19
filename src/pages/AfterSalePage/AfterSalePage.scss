@@ -37,6 +37,12 @@
     font-size: 1.45rem;
     padding: 0rem 5rem;
     color: $color-secondary;
+
+    @media only screen and (max-width: $bp-smallest) {
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .after {

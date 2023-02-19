@@ -8,6 +8,10 @@
         height: 40rem;
     }
 
+    @media only screen and (max-width: $bp-smallest) {
+        height: 27.5rem;
+    }
+
     a {
         text-decoration: none;
     }
@@ -41,14 +45,6 @@
         display: flex;
         align-items: center;
 
-
-        h3 {
-            color: $color-grey-light-1;
-            padding-left: 2rem;
-            font-size: 1.6rem;
-            font-weight: 100;
-        }
-
         @media only screen and (max-width: $bp-large) {
             top: -23.5rem;
         }
@@ -60,6 +56,17 @@
 
         @media only screen and (max-width: $bp-small) {
             top: -44.5rem;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            top: -27.5rem;
+        }
+
+        h3 {
+            color: $color-grey-light-1;
+            padding-left: 2rem;
+            font-size: 1.6rem;
+            font-weight: 100;
         }
     }
 

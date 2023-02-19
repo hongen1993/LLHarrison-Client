@@ -12,12 +12,24 @@
     background-position: center;
     background-size: cover;
 
+    @media only screen and (max-width: $bp-small) {
+        background-image: linear-gradient(122deg, rgba($color-secondary, .9)0%, rgba($color-secondary, .4)56%, rgba($color-secondary, 0)66%, transparent 66%), url(../../assets/images/login.jpg);
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        background-image: linear-gradient(122deg, rgba($color-secondary, .9)0%, rgba($color-secondary, .4)66%, rgba($color-secondary, 0)76%, transparent 76%), url(../../assets/images/login.jpg);
+    }
+
     &__form {
         grid-column: 1 / 2;
 
         display: flex;
         justify-content: center;
         flex-direction: column;
+
+        @media only screen and (max-width: $bp-medium) {
+            grid-column: 1 / 3;
+        }
 
         h3 {
             font-size: 2.5rem;
@@ -31,6 +43,18 @@
 
 .login-form {
     padding: 5rem 15rem 0 15rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 5rem 12.5rem 0 12.5rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        padding: 5rem 2.5rem 0 2.5rem;
+    }
 }
 
 .to-signup {

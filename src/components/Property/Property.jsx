@@ -32,7 +32,7 @@ const Property = ({ image, title, location, bedrooms, bathrooms, area, price, pr
                 <MdOutlinePriceChange />
                 <p>{number}€</p>
             </div>
-            <Button bStyle={'property__btn'} text={'Contact realtor'} link={`property/${propId}`} />
+            <Button bStyle={'property__btn'} text={'Contact realtor'} link='contact-us' />
         </div>
     )
 }

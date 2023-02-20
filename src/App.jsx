@@ -64,14 +64,14 @@ function App() {
           }
         />
 
-        <Route
+        {/* <Route
           path="/properties"
           element={
             <PropertiesPage />
           }
-        />
+        /> */}
         <Route
-          path="/properties-categories"
+          path="/properties"
           element={
             <PropertiesCategoryPage />
           }

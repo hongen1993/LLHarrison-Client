@@ -19,12 +19,12 @@ const CategoriesSection = () => {
 
     return (
         <section className="categories" id='section-categories'>
-            <Category text={categoryA} image={imageA} link='properties-categories' />
-            <Category text={categoryB} image={imageB} link='properties-categories' />
-            <Category text={categoryC} image={imageC} link='properties-categories' />
-            <Category text={categoryD} image={imageD} link='properties-categories' />
-            <Category text={categoryE} image={imageE} link='properties-categories' />
-            <Category text={categoryF} image={imageF} link='properties-categories' />
+            <Category text={categoryA} image={imageA} link='properties' />
+            <Category text={categoryB} image={imageB} link='properties' />
+            <Category text={categoryC} image={imageC} link='properties' />
+            <Category text={categoryD} image={imageD} link='properties' />
+            <Category text={categoryE} image={imageE} link='properties' />
+            <Category text={categoryF} image={imageF} link='properties' />
 
         </section>
     )

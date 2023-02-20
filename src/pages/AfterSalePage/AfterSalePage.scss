@@ -23,10 +23,7 @@
     &__content {
         position: relative;
         margin: 7.5rem 0;
-
-        @media only screen and (max-width: $bp-medium) {
-            padding-left: 0rem;
-        }
+        margin-left: 7rem;
     }
 }
 

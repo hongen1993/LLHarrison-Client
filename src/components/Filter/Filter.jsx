@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import PropertyAPI from '../../services/property.service'
+// import PropertyAPI from '../../services/property.service'
 
 import Property from "../../components/Property/Property"
 import Heading from "../../components/Heading/Heading"
 import "./Filter.scss"
+import data from "../../assets/properties.json"
 
 const Filter = () => {
     const [search, setSearch] = useState('')
@@ -11,12 +12,12 @@ const Filter = () => {
     const [category, setCategory] = useState()
 
     useEffect(() => {
-        PropertyAPI
-            .getCategoriesProp()
-            .then((propertiesDB) => {
-                let contemporaryProp = propertiesDB.results.filter((property) => property.category.includes(category))
-                category ? setProperties(contemporaryProp) : setProperties(propertiesDB.results)
-            })
+        // PropertyAPI
+        //     .getCategoriesProp()
+        //     .then((propertiesDB) => {
+        let contemporaryProp = data.filter((property) => property.category.includes(category))
+        category ? setProperties(contemporaryProp) : setProperties(data)
+        // })
     }, [category])
     return (
         <>

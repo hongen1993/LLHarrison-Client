@@ -47,13 +47,13 @@ function Sidebar() {
               {" "}
               <GoHome />
             </Link>
-            <Link to="/login" className="icon">
+            <Link to="/after-sales-services" className="icon">
               {" "}
               <AiOutlineStar />
             </Link>
-            <HashLink to="/#section-categories" className="icon">
+            {<HashLink to="/#section-categories" className="icon">
               <BiCategory />
-            </HashLink>
+            </HashLink>}
             <Link to="/about-us" className="icon">
               {" "}
               <BsInfoCircle />
@@ -75,14 +75,14 @@ function Sidebar() {
               {" "}
               <GoHome />
             </Link>
-            <Link to="/login" className="icon">
+            {<Link to="/after-sales-services" className="icon">
               {" "}
               <AiOutlineStar />
-            </Link>
-            <HashLink to="/#section-categories" className="icon">
+            </Link>}
+            {<HashLink to="/#section-categories" className="icon">
               {" "}
               <BiCategory />
-            </HashLink>
+            </HashLink>}
             <Link to="/about-us" className="icon">
               {" "}
               <BsInfoCircle />

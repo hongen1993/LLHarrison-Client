@@ -1,0 +1,1057 @@
+[{
+  "_id": {
+    "$oid": "63eb89977aa47817acef585f"
+  },
+  "name": "Luxury semi-detached villas in La Cala ",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkJUHOyszY~geQ1seaGN4yC~SUolAP82GBsvy~wxLSqn89ei6LdpA2_HLrt9rA--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "La Cala Golf",
+  "area": 374,
+  "price": 945000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676380567582"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676380567582"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63eb8c967aa47817acef5863"
+  },
+  "name": "Contemporary apartments in Marbella town",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkJTXmPLvUuvxZpSc8KvbAs4CAaDPLfj4I_90qOHly75m2~mC9nocq~07wgCYQ--.png",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Marbella",
+  "area": 145,
+  "price": 1350000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676381334899"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676381334899"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63eb8d1b7aa47817acef5865"
+  },
+  "name": "Mijas Costa homes with stunning sea views",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkJSoI2N8YQ5G~YIoWkTZYTElp1QvPXfTxOjcz9~eNU9zKXRHbmzLCGQ4A0L4g--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Mijas Costa",
+  "area": 284,
+  "price": 825000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676381467468"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676381467468"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebaa0f7aa47817acef5867"
+  },
+  "name": "Brand new development of Fuengirola apartments",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkMhJiF5xt34tLcUIp_jScSAI816Wvfe4ActFvBYirdmJpQK3810KjOyPY7irA--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Fuengirola",
+  "area": 176,
+  "price": 630000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676388879065"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676388879065"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebaa377aa47817acef5869"
+  },
+  "name": "Contemporary Estepona Apartments and Penthouses\n",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkMv95deT6nu6myWHW7ZWdTKt_irVZZ1jnsEGaHKVH0VXXXbFai6UWHKXx_f6w--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 176,
+  "price": 710000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676388919910"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676388919910"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebaa9e7aa47817acef586b"
+  },
+  "name": "Villa for sale in La Carolina",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkMtmY3ILHuOnlTREmaDlufbTE6bNsM0fM05juJZ5OS3kYaOrFt8XeAQmwwsiQ--.jpg",
+  "bedrooms": 5,
+  "bathrooms": 5,
+  "location": "La Carolina",
+  "area": 652,
+  "price": 525000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389022711"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389022711"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebaac87aa47817acef586d"
+  },
+  "name": "Town House in Caleta de Velez",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkMtmY3ILHuOnlTREmaDlufbTE6bNsM0fM05juJZ5OS3kYaOrFt8XeAQmwwsiQ--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Caleta de Velez",
+  "area": 305,
+  "price": 419000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389064383"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389064383"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebab317aa47817acef586f"
+  },
+  "name": "Frontline golf apartments in Calanova",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1d5~ZwFNczGxD_MP43i6Ac5xm6QFGt6NVzZbbGP~ErsioBQKJeh1pRWs_eUZw--.jpg",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "location": "Calanova Golf",
+  "area": 97,
+  "price": 229000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389169832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389169832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebab5d7aa47817acef5871"
+  },
+  "name": "Key ready villas in Finca Cortesin",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1a_2tBGibXAiXZCtQoiFL27TYQqNmNSu7CiiST3httOdHDwSoQ1EMo1cuD~cg--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Casares",
+  "area": 184,
+  "price": 728500,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389213371"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389213371"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebab877aa47817acef5873"
+  },
+  "name": "Stylish contemporary Estepona apartments",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1lrhgRDFqcuDKzIY2rP2b2DW0Y3gy3JxYqolQ~nyhpidLMLA1UDOaRD2MUO0A--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Estepona",
+  "area": 157,
+  "price": 495000,
+  "category": "Contemporary Properties",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389255255"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389255255"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebac4e7aa47817acef5875"
+  },
+  "name": "Acqua Gardens",
+  "image": "https://u3k4x7h8.rocketcdn.me/wp-content/uploads/2022/11/webAG_exteriores_06-2.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "New Golden Mile",
+  "area": 112,
+  "price": 271000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389454070"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389454070"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebad1f7aa47817acef5877"
+  },
+  "name": "EDEN RESORT & CLUB",
+  "image": "https://red.diariocritico.com/fotos/1/510503_penthouse-que-es.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "El Chaparral",
+  "area": 147,
+  "price": 471000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389663495"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389663495"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebad917aa47817acef5879"
+  },
+  "name": "ONE80",
+  "image": "https://u3k4x7h8.rocketcdn.me/wp-content/uploads/2020/05/one80-website.jpg",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "location": "Estepona",
+  "area": 87,
+  "price": 171000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389777052"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389777052"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebae1f7aa47817acef587b"
+  },
+  "name": "Pure South",
+  "image": "https://u3k4x7h8.rocketcdn.me/wp-content/uploads/2020/05/pswebsite.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Manilva",
+  "area": 223,
+  "price": 621000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389919579"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389919579"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebae6d7aa47817acef587d"
+  },
+  "name": "Las olas",
+  "image": "https://u3k4x7h8.rocketcdn.me/wp-content/uploads/2018/07/lasolas-none.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 180,
+  "price": 380000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676389997177"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676389997177"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb0e17aa47817acef587f"
+  },
+  "name": "South West",
+  "image": "https://images.advantez.com/property/85/260659/9130142-12.jpg?width=800&height=600&retainratio=false",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 130,
+  "price": 595000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676390625109"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676390625109"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb1637aa47817acef5881"
+  },
+  "name": "Cali Penthouse",
+  "image": "https://images.advantez.com/property/85/222827/4999348-pool.jpg?width=800&height=600&retainratio=false",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Elviria",
+  "area": 147,
+  "price": 323000,
+  "category": "Exclusive Developments",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676390755577"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676390755577"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb1b17aa47817acef5883"
+  },
+  "name": "Luxury villa in Nueva Andalucia",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkJR2P5ewf_nWF7kiMoCrW6k9Iq6Ohj073iD2vmrNfzjzCfKcN~U5JiBxMI3Ww--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Nueva Andalucia",
+  "area": 435,
+  "price": 3300000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676390833796"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676390833796"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb1d37aa47817acef5885"
+  },
+  "name": "Spacious villa with private pool",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkMv9Yydl0UtbMcZ5ezLGpcqYGqn3LbIijayIVqXV0c0_K8NFFUrCLO6JyfG2w--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Mijas Costa",
+  "area": 444,
+  "price": 720000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676390867627"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676390867627"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb1fc7aa47817acef5887"
+  },
+  "name": "Villa for sale in Coin",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1a5fvJoA9MpCDYLNbxDPgoGV1c4ae9Qhn1gVyXsINgVsbgXVcm5dcT8rn9Icw--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Coin",
+  "area": 300,
+  "price": 890000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676390908737"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676390908737"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb2727aa47817acef5889"
+  },
+  "name": "Luxury villas in Sotogrande",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCALvqIEg2qcYrtT28tpsi~5dLGor2JLA0e0zLm8uumxauOzwotQiOxvE8_oop7Q--.jpg)",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Sotogrande",
+  "area": 152,
+  "price": 741000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391026270"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391026270"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb2d47aa47817acef588b"
+  },
+  "name": "Renovated villa in El Rosario",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1a5fvJoA9MpCDYLNbxDPgoGV1c4ae9Qhn1gVyXsINgVsbgXVcm5dcT8rn9Icw--.jpg",
+  "bedrooms": 6,
+  "bathrooms": 4,
+  "location": "El Rosario",
+  "area": 347,
+  "price": 1149000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391124926"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391124926"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb3337aa47817acef588d"
+  },
+  "name": "Luxury Costa del Sol villa",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1sYc5fuWvNYUOYKlsbRGZjPz8XzsCzerdHAXtdgyHOeVOnbTUbwYNPwj6CdZQ--.png",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Manilva",
+  "area": 1874,
+  "price": 1085000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391219565"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391219565"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb3667aa47817acef588f"
+  },
+  "name": "Frontline Golf villas in Estepona",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1sd9HUwtxooOZ6v5Z65AWnrnUJcdUJ9Ckb12H1xzSLStKqxIKrECw1acqNCXQ--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 289,
+  "price": 624000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391270383"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391270383"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb3bd7aa47817acef5891"
+  },
+  "name": "Partially built villa in Montemayor",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1rTjO3XDJNaW2bdhH~kt~xWegM3QV93f7pBgErFddEQLVTvS_kMpOdHgzlCyA--.jpg",
+  "bedrooms": 5,
+  "bathrooms": 7,
+  "location": "Estepona",
+  "area": 625,
+  "price": 850000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391357136"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391357136"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb3e47aa47817acef5893"
+  },
+  "name": "Villa in Entrerrios",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1rQKa1uva1c~LaamxRAyNaUtWhnIn8RJcsdzzQ5MdqKV5MbrC7RdvexIdLSqg--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "location": "Entreríos",
+  "area": 366,
+  "price": 1550000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391396623"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391396623"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb4167aa47817acef5895"
+  },
+  "name": "Luxury Villa with stunning views in Benahavis",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB13Zpye8sELdnJGrTxsSGB7quOweiXU6WmwZYB4Iq_KV919VFlb~b_ZhS8MceA--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Benahavis",
+  "area": 581,
+  "price": 1800000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676391446207"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676391446207"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb7357aa47817acef5897"
+  },
+  "name": "Semi Detached Villa in Estepona",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1wFZJPvZZNARpdUvstd8FTf_kdiAnh2ui1ycV2iIViU4uF2DVnDlKlSUwNbFg--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 112,
+  "price": 680000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392245488"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392245488"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb75f7aa47817acef5899"
+  },
+  "name": "Fantastic luxury villa in La Duquesa",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1~QDxBhFMIPR7xFbq2IEVZenbNTE_bJ03Ic3vs2DCGLHjc6Twww4Ku9~CdZYw--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "location": "La Duquesa",
+  "area": 230,
+  "price": 555000,
+  "category": "Villa Selection",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392287867"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392287867"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb7a17aa47817acef589b"
+  },
+  "name": "Luxury penthouses with Sea Views",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCBkJX7edVEboPBPqlQ37Gr3xWvRUkFDjOFBrDQehPkXn0nMX1UMXOL6D9e1ZQjQ--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Malaga Centro",
+  "area": 230,
+  "price": 1400000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392353422"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392353422"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb7c67aa47817acef589d"
+  },
+  "name": "Contemporary Front-line beach apartments",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1wJ6vFCh37rz7YNpF_XoM1zzUwKhh4T~_IoykfLFCVO2qtE190cUVBPZni9dA--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Torre del Mar",
+  "area": 98,
+  "price": 270000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392390790"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392390790"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb7f17aa47817acef589f"
+  },
+  "name": "Impressive front line beach duplex",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCB1~XB7Bz4tA8I5EYrXsg~A8fM2f8Mk1aJzNxZz5Mbwg_jHCITODUxOYgqZ3PkA--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Los Granados",
+  "area": 144,
+  "price": 1500000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392433604"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392433604"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb8197aa47817acef58a1"
+  },
+  "name": "Luxurious beachfront development",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCALvqIEg2rY7QdPLGAE_J~PgPaYXvbrDNrNoSBtSzltz3u8UYnOsu~oAcsgeMcw--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 232,
+  "price": 1985000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392473104"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392473104"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb83a7aa47817acef58a3"
+  },
+  "name": "Fantastic front line beach development",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCALvvZUQUIRzr~7f9g3TC9tGeErEJWrxgME1GUM0~5dQp5AFRFboFTh3zWxBUug--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 223,
+  "price": 1746000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392506443"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392506443"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb8607aa47817acef58a5"
+  },
+  "name": "Luxury Costa del Sol beachfront properties",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCALe9nG27JitsQFRkpNrtIqQ_A2V7GQT5SQga3ELIv6TBX1Rbvde1VJG4s5NyhQ--.jpg",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Estepona",
+  "area": 223,
+  "price": 1860000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392544638"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392544638"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb87e7aa47817acef58a7"
+  },
+  "name": "Contemporary development of apartments",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCAZ5T5~zwTtxchJYzOVYWSZdd8zvqmmamo60-.jpg",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Estepona",
+  "area": 241,
+  "price": 1265000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392574521"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392574521"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb89f7aa47817acef58a9"
+  },
+  "name": "Stunning contemporary front line beach townhouses",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCAZvJ~hpMWbnvQU2iXRuaSd6fAXL6r28zko4-.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Estepona",
+  "area": 260,
+  "price": 1200000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392607183"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392607183"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb8c47aa47817acef58ab"
+  },
+  "name": "Brand new frontline beach contemporar apartments",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCAZpaWuJnBYXUzkNAVVNXVG6nFVDsU7RvoTA-.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Estepona",
+  "area": 552,
+  "price": 2150000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392644136"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392644136"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb9167aa47817acef58af"
+  },
+  "name": "Spectacular front line beach villa",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCAZkZTmeNzN_NxuVWnASpjNZld0EVUk3t4ZY-.jpg",
+  "bedrooms": 8,
+  "bathrooms": 9,
+  "location": "Cabopino",
+  "area": 1180,
+  "price": 4200000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392726280"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392726280"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebb93d7aa47817acef58b1"
+  },
+  "name": "Newly luxury apartments front line beach",
+  "image": "https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCA_HiPtTNA4eYCWxmH2V00nQQkGRgXzIYdao-.jpg",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "location": "Estepona",
+  "area": 171,
+  "price": 890000,
+  "category": "Frontline Beach",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676392765129"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676392765129"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebba927aa47817acef58b3"
+  },
+  "name": "Les belvederes, wonderful duplex penthouse",
+  "image": "//media.inmobalia.com/imgV1/B8vEv5Xh~9Opq_I1~Le1iMvMEIfN9bSvP9TL8~Nt8AQtsK3_irrOq2nUCKjYGqSxqOKyS_G5v8bmcTREO6_PfzpOxNKd1CDxH1urY5rjOSrVDbnbMs2ELkJWX3BqnbhksolqHhoeKDB3B0ZbIRbKUOA3NRKw05wPZa7SQGtjn5697jEVR3~7gLCOVEwN7ZCDvDyRdWaY5carNyeHP8VhgXTl1Gs61vuFA3Wse~ITNWPLPssAy3mYCy3t9V6wzWKLyfQ~ImHy3Sp6lBZILxOOqGMACpQo~2vgySgR6Hivjay9ZkpETfE9LEHIwKo1VxBeueo4VuJCBg--.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Nueva Andalucia",
+  "area": 290,
+  "price": 2000000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393106431"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393106431"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbad37aa47817acef58b5"
+  },
+  "name": "Ground floor apartment in Las Alamandas",
+  "image": "  https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X89rAIO5di0rCALvqIEg2qN6qa14YILf1ey4LR6eHEeykGgZbcWwzQ7vaEz_2LNJNVQG9BH1_ow--.jpg",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "location": "Nueva Andalucia",
+  "area": 202,
+  "price": 725000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393171616"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393171616"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbb797aa47817acef58b7"
+  },
+  "name": "Luxury apartment in Nueva Andalucia",
+  "image": "https://img.jamesedition.com/listing_images/2023/01/19/13/30/25/8887cacc-1da1-4c8b-88c9-f9a016f7df1d/je/1100xxs.jpg",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "location": "Nueva Andalucia",
+  "area": 217,
+  "price": 8900000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393337508"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393337508"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbc297aa47817acef58b9"
+  },
+  "name": "Modern new build apartment",
+  "image": "https://img.jamesedition.com/listing_images/2023/01/18/17/09/13/87e21d61-cf57-42f5-a6d2-dbf312d676b1/je/1100xxs.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Benahavis",
+  "area": 364,
+  "price": 3499000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393513228"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393513228"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbc4b7aa47817acef58bb"
+  },
+  "name": "Luxury penthouse in Golden Mile",
+  "image": "https://img.jamesedition.com/listing_images/2023/01/18/17/09/13/5e1831a3-2184-4ca4-b574-b8ac8ef9aea7/je/1100xxs.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Benahavis",
+  "area": 528,
+  "price": 3250000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393547717"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393547717"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbcf47aa47817acef58bd"
+  },
+  "name": "Luxury Apartments in Marbella",
+  "image": "https://img.jamesedition.com/listing_images/2023/01/18/17/09/13/e443f1d1-4e67-444d-96df-c0c01a8e0a86/je/1100xxs.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Marbella",
+  "area": 223,
+  "price": 5690000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393716202"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393716202"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbd2e7aa47817acef58bf"
+  },
+  "name": "Apartment In Lomas Del Rey",
+  "image": "https://img.jamesedition.com/listing_images/2022/12/21/13/12/04/636877bd-5db5-41fc-af68-34703f6b1420/je/1100xxs.jpg",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "location": "Lomas de Rey",
+  "area": 205,
+  "price": 2450000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393774859"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393774859"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ebbd9b7aa47817acef58c1"
+  },
+  "name": "3 Bedroom Penthouse In Marbella",
+  "image": "https://img.jamesedition.com/listing_images/2022/12/21/09/07/38/6d0d5a5a-3d33-4cf8-a940-e454df206b24/je/1100xxs.jpg",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "location": "Marbella",
+  "area": 150,
+  "price": 950000,
+  "category": "Apartment",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676393883707"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676393883707"
+    }
+  }
+}]

@@ -19,7 +19,7 @@ const AfterSalePage = () => {
                         <div className="after-sales__a">
                             <p>We would like to congratulate you on your property purchase in Sunny Spain! Now that you have been able to successfully obtain your ideal property we are here to secure a smooth transition into the Spanish life.</p>
                             <br />
-                            <p>Bromley Estates Marbella provides a complete After Sales Service to ensure customer satisfaction. We are dedicated to maintaining our professional service before, during and after your property purchase.</p>
+                            <p>LL Harrison provides a complete After Sales Service to ensure customer satisfaction. We are dedicated to maintaining our professional service before, during and after your property purchase.</p>
                         </div>
                         <div className="after-sales__b">
                             <p>Below we compiled a list of the most requested services. When moving or vacationing in a new country, there could be a learning curve to “how things work in Spain” We are here to assist you with any requests you may have and will direct you to only the most reputable of companies.</p>

@@ -24,7 +24,7 @@ const BuyProcessPage = () => {
                     </div>
                 </div>
                 <div className="section-buy-process__guides guides">
-                    <Heading HType={'h2'} hStyle={'1'} text={'Contact Bromley Estates for further guidance'} />
+                    <Heading HType={'h2'} hStyle={'1'} text={'Contact LL Harrison for further guidance'} />
                     <div className="guides__content">
                         <p className="guides__text">Below we have compiled a list of the most commonly requested services. When moving or vacationing in a new country, there could be a learning curve to “how things work in Spain” We are here to assist you with any requests you may have and will direct you to only the most reputable of companies.</p>
                         <div className="guides__features">

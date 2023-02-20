@@ -34,6 +34,7 @@
 
         @media only screen and (max-width: $bp-smallest) {
             padding: 7.5rem 3rem 4rem 3rem;
+            grid-template-rows: minmax(4rem, min-content) minmax(40rem, min-content) minmax(10rem, min-content) 1fr;
         }
     }
 

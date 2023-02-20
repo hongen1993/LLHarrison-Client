@@ -8,17 +8,19 @@ import data from "../../assets/properties.json"
 
 const PropertiesSection = () => {
 
-    const [properties, setProperties] = useState([])
+    // const [properties, setProperties] = useState([])
 
-    useEffect(() => {
-        setProperties(data.slice(0, 6))
-        // PropertyAPI
-        //     .getSixProperties(pagination)
-        //     .then((propertiesDB) => {
-        //         setProperties(propertiesDB.results)
-        //         setMaxPage(propertiesDB.maxPage)
-        //     })
-    })
+    // useEffect(() => {
+    // setProperties(data.slice(0, 6))
+    // PropertyAPI
+    //     .getSixProperties(pagination)
+    //     .then((propertiesDB) => {
+    //         setProperties(propertiesDB.results)
+    //         setMaxPage(propertiesDB.maxPage)
+    //     })
+    // })
+
+    const properties = data.slice(0, 6)
 
     return (
         < section className="properties properties__position" >
